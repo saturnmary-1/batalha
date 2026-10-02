@@ -1,12 +1,7 @@
 body {
     margin: 0;
-    background:repeating-linear-gradient(
-        to right,
-        #f6bad6 0px,
-        #f6bad6 30px,
-        #710a14 30px,
-        #710a14 60px
-        );
+    background-color: #f6bad6
+ ;
     text-align: center;
 }
 
