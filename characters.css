@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
-   
+.personagens {
+    width: 80%;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fce7cc;
+    border: 3px solid #470e14;
+    border-radius: 8px;
+}
+
+.personagens h2 {
+    text-align: center;
+    font-family: "Alex Brush", cursive;
+    font-size: 40px;
+    color: #470e14;
+    margin-bottom: 30px;
+}
+
+.personagens table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fce7cc;
+}
+
+.personagens th {
+    background-color: #96c1c5;
+    color: #470e14;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #470e14;
+}
+
+.personagens td {
+    padding: 15px;
+    border: 2px solid #470e14;
+    color: #470e14;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.personagens td img {
+    width: 110px;
+    height: 130px;
+    object-fit: cover;
+    border: 2px solid #470e14;
+    border-radius: 5px;
+}
+
+.personagens td h3 {
+    margin: 8px 0 0;
+    font-family: "Alex Brush", cursive;
+    font-size: 30px;
+    color: #470e14;
+}
 
