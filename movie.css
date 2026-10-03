@@ -84,7 +84,7 @@ main {
     padding: 22px;
     margin: 0 auto;
 
-    font-size: 23px;
+    font-size: 20px;
 
     font-family: 'Times New Roman', Times, serif;
     color: #ffff;
@@ -96,12 +96,12 @@ main {
 
 .card-filme h1 {
         font-family:  "Alex Brush", cursive;
-        font-size: 38px;
+        font-size: 40px;
 }
 
 .estrelas {
     margin-top: -20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .card-filme::before {
