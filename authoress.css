@@ -4,6 +4,7 @@
    margin: 0;
    padding: 0;
    background-color:#e7a2dd ;
+   font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
  header {
@@ -75,6 +76,10 @@ nav a:hover {
 .Autora h2 {
    font-family: "Alex brush", cursive;
    font-size: 40px;
+   color: #522a4c;
+}
+.Autora p {
+   text-align: center;
    color: #522a4c;
 }
 
