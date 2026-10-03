@@ -57,7 +57,7 @@ nav span {
 }
 
 nav a:hover {
-    background-color:#54110f;
+    background-color:#3c0e18;
     transform: rotate(-2deg);
     text-decoration:underline;
     color: #fce7cc;
