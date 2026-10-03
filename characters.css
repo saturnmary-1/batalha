@@ -14,6 +14,7 @@
     width: 80%;
     margin: 40px auto;
     padding: 25px;
+    color:#5f0c2f;
     background-color: #fce7cc;
     border: 3px solid #5f0c2f;
     border-radius: 8px;
@@ -23,6 +24,7 @@
     text-align: center;
     font-family: "Alex Brush", cursive;
     font-size: 40px;
+    color:#5f0c2f;
     margin-bottom: 30px;
 }
 
@@ -33,6 +35,7 @@
 }
 
 .personagens th {
+    color:#5f0c2f;
     background-color: #96c1c5;
     font-size: 18px;
     padding: 15px;
@@ -40,6 +43,7 @@
 }
 
 .personagens td {
+    color:#5f0c2f;
     padding: 15px;
     border: 2px solid #3c0e18;
     font-size: 16px;
@@ -48,6 +52,7 @@
 }
 
 .personagens td img {
+    color:#5f0c2f;
     width: 110px;
     height: 130px;
     object-fit: cover;
