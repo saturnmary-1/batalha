@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
  body{
-    background-color:#e3bfde ;
+   margin: 0;
+   padding: 0;
+   background-color:#e3bfde ;
  }
 
  header {
@@ -56,4 +60,24 @@ nav a:hover {
     color: white;
 }
 
+.Autora {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   margin: 10px;
+   padding: 15px;
+}
 
+.Autora h2 {
+   font-family: "Alex brush", cursive;
+   font-size: 40px;
+   color: #522a4c;
+}
+
+.foto {
+   width: 130px;
+   height: auto;
+   flex-shrink: 0;
+   border: 3px solid #351d31;
+   border-radius: 5px;
+}
