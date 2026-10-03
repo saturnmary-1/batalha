@@ -36,8 +36,10 @@ body{
 
 .personagens th {
     color:#5f0c2f;
-    background-color: #96c1c5;
     font-size: 18px;
+     background-color: #96c1c5;
+
+
     padding: 15px;
     border: 2px solid #3c0e18;
 }
