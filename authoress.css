@@ -1,95 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
- body{
+body {
    margin: 0;
    padding: 0;
-   background-color:#f8aeed ;
+   background-color: #f8aeed;
    font-family: Georgia, 'Times New Roman', Times, serif;
- }
-
- header {
-    text-align: center;
-    padding: 25px;
-    margin-top: -10px;
-
-    background-color: #fce7cc;
-    border-bottom: 4px solid #351d31;
 }
 
-header h1{
-    font-family: "Alex brush", cursive;
-    font-size: 40px;
-    letter-spacing: 1px;
+header {
+   text-align: center;
+   padding: 20px 10px 10px;
+   background-color: #fce7cc;
+   border-bottom: 4px solid #351d31;
+}
 
-    text-align: center;
-    padding: 25px 30px 12px;
-    margin-top: -30px;
-    color: #522a4c;
+header h1 {
+   margin: 0;
+   font-family: "Alex Brush", cursive;
+   font-size: 40px;
+   letter-spacing: 1px;
+   color: #522a4c;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-top: -30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 8px;
+   padding: 10px;
 }
 
 nav a {
-    display:inline-block;
-    padding: 6px 10px;
-    color: #522a4c;
-    text-decoration: none;
-
-    text-align: center;
-
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-
-    border:1px solid transparent;
-    border-radius: 20px;
-    transition: 0.2s;
+   display: inline-block;
+   padding: 6px 10px;
+   color: #522a4c;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 14px;
+   border: 1px solid transparent;
+   border-radius: 20px;
+   transition: 0.2s;
 }
 
 nav span {
-    color: #522a4c;
+   color: #522a4c;
 }
 
 nav a:hover {
-    background-color:#351d31;
-    transform: rotate(-2deg);
-    text-decoration:underline;
-    color: white;
+   background-color: #351d31;
+   transform: rotate(-2deg);
+   text-decoration: underline;
+   color: white;
 }
 
 .Autora {
-   display: inline;
+   display: flex;
    justify-content: flex-start;
-   align-items: center;
-   text-align: center;
-
-   gap: 10px;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   gap: 20px;
    margin: 10px;
    padding: 15px;
    background-color: #fce7cc;
-   border: #351d31 4px solid;
+   border: 4px solid #351d31;
    border-radius: 6px;
-}
-
-.Autora h2 {
-   font-family: "Alex brush", cursive;
-   font-size: 40px;
-   color: #522a4c;
-}
-.Autora p {
-   text-align: center;
-   color: #522a4c;
 }
 
 .foto {
    width: 300px;
+   max-width: 100%;
    height: auto;
    flex-shrink: 0;
    border: 3px solid #351d31;
    border-radius: 5px;
+}
+
+.texto {
+   flex: 1;
+   min-width: 250px;
+}
+
+.Autora h2 {
+   margin-top: 0;
+   font-family: "Alex Brush", cursive;
+   font-size: 40px;
+   color: #522a4c;
+}
+
+.Autora p {
+   text-align: left;
+   color: #522a4c;
+   line-height: 1.5;
 }
