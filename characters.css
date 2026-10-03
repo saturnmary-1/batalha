@@ -9,6 +9,58 @@ body{
     min-height: 100vh;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: -10px;
+
+    background-color: #fce7cc;
+    border-bottom: #3c0e18;
+}
+
+header h1{
+    font-family: "Alex brush", cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: -30px;
+}
+
+nav a {
+    display:inline-block;
+    padding: 6px 10px;
+    color: #5f0c2f;
+    text-decoration: none;
+
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+    border:1px solid transparent;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+nav span {
+    color: #5f0c2f;
+}
+
+nav a:hover {
+    background-color:#54110f;
+    transform: rotate(-2deg);
+    text-decoration:underline;
+    color: #fce7cc;
+}
+
 
 .personagens {
     width: 80%;
